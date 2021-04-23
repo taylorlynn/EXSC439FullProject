@@ -1,0 +1,36 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: L0s+Fgi8IDDWhjOQTIZhWOXJLz5Ng
+ NLgPiHl93u3GKE=
+SHA-256-Digest-Manifest: gfnL1YikfUHXd++C5CbDKZe+bPAFrYWWIjzThpeAJ0M=
+Created-By: 1.8.0_91 (Oracle Corporation)
+
+Name: css/style.css
+SHA-256-Digest: AFHUf/eGVCKMhkh9HZwV8E8BvpRv7ZiAKsoRupwRXOs=
+
+Name: com/yakindu/sct/ui/intro/ReleaseNotes.class
+SHA-256-Digest: uWL20pEnl7ureFfXNmfBFCLiBvFGPuxUxftcSv+Shmk=
+
+Name: plugin.xml
+SHA-256-Digest: Zsa6ZJ3Vyx+ZCSX8kwZFa8N4zH6HFVPRa8d0h4g/SGE=
+
+Name: img/logo_shadowed.png
+SHA-256-Digest: JvIvqGWdypy3DTFIK6/G2a8zZitPQVvqbfNNPf1k/zU=
+
+Name: yakinduExtensionContent.xml
+SHA-256-Digest: 9oSB0dBB+e21Qj/HoXPBVns2GKhAC3nkuxZkMrXyYZo=
+
+Name: img/logo_hover.png
+SHA-256-Digest: KVbX1ZDtPySew5Ks4ajYLyZ0NJufAKISOfEVZkBeiJo=
+
+Name: com/yakindu/sct/ui/intro/OpenExampleIntroAction.class
+SHA-256-Digest: Ur7WNeHpnfloJKeQrDofqAue9HC+Tpx+meZUxTkSQ5E=
+
+Name: com/yakindu/sct/ui/intro/Activator.class
+SHA-256-Digest: endwCnDun+ItQAANrfPvjek2VnMIejjFgUb6BbKvwtU=
+
+Name: com/yakindu/sct/ui/intro/ReleaseNotes$1.class
+SHA-256-Digest: pE18E8CLbwDj1b6xBFFe7EGa0xE/utlTGu/4faBXtZ0=
+
+Name: css/style.properties
+SHA-256-Digest: T5co/FHD6B2zl+Z3ZOTJMHfPjAZ49dTq2dKc/AJ5PEM=
+

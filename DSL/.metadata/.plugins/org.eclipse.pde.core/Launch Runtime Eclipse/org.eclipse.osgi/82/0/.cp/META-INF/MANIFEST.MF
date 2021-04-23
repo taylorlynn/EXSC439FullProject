@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: com.yakindu.sct.ui.intro
+Bundle-SymbolicName: com.yakindu.sct.ui.intro;singleton:=true
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.ui
+ .intro,org.eclipse.platform
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: itemis AG
+Bundle-Name: YAKINDU Intro
+Bundle-Version: 4.0.5.202102111323
+Bundle-Activator: com.yakindu.sct.ui.intro.Activator
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+
+Name: css/style.css
+SHA-256-Digest: 5FZhvXae8eyVo+W3UW7YdtJ6tQRPCNcUmO++iERU/4c=
+
+Name: com/yakindu/sct/ui/intro/ReleaseNotes.class
+SHA-256-Digest: vzEmWtyZohTOhVQUtO4mQzbnAot/E8uNSvfG8gzz0TE=
+
+Name: plugin.xml
+SHA-256-Digest: hPAQQVtLdT8u76/PoE5lOJFS0yTmW62EK6Y6qzQLi5Y=
+
+Name: img/logo_shadowed.png
+SHA-256-Digest: QHzloU3ishdHkaK/39HmcNL87mkNqdscFaeDBlDc5Mw=
+
+Name: yakinduExtensionContent.xml
+SHA-256-Digest: 6PiaYOdy4019mknybtA2EgP7CRPrx4ZCNFB76xd3rHE=
+
+Name: img/logo_hover.png
+SHA-256-Digest: 6qNR8VvJ4qX7k+yUYC2dk1Mjy9xaLw+AJz+7aRrV/t8=
+
+Name: com/yakindu/sct/ui/intro/OpenExampleIntroAction.class
+SHA-256-Digest: v5duZO4XjuzAWXtLE3PkVOJ6wujcMmwsEia56lsKiAw=
+
+Name: com/yakindu/sct/ui/intro/Activator.class
+SHA-256-Digest: YtZNQPDKWsyrAcqRBcLIi2+cXFd9vwBwJgwCFwgcbg4=
+
+Name: com/yakindu/sct/ui/intro/ReleaseNotes$1.class
+SHA-256-Digest: qpkyNQIPdpcYcH6xx1K2DlSy08gdt42cPjRwR0tvE6s=
+
+Name: css/style.properties
+SHA-256-Digest: 3GNvjrci8UW3E7TtHdut//8UNKlcFUWwuo599IUBUCk=
+

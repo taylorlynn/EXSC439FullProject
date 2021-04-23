@@ -1,0 +1,11 @@
+
+
+site "My First Blog":
+	description: "a really simple example";
+	icon: "https://revenuearchitects.com/wp-content/uploads/2017/02/Blog_pic.png";
+	pages: 
+		page 'home':
+			description: 'my home page';
+		end
+	end
+end

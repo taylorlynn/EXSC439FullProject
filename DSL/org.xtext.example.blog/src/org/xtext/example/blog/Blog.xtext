@@ -1,0 +1,52 @@
+grammar org.xtext.example.blog.Blog with org.eclipse.xtext.common.Terminals
+
+generate blog "http://www.xtext.org/example/blog/Blog"
+
+Model:
+	('images' ':' (images+=Image)+ 'end')? 
+	('categories' ':' (categories+=Category)+ 'end')? 
+	site=Site 
+;
+
+Image:
+	name=ID ':' url=STRING ';'
+;
+
+Category:
+	name=ID ';'
+;
+
+Site:
+	'site' name=STRING ':' 
+		'description' ':' description=STRING ';'
+		((hasNavbar ?= 'has_navbar')';')?
+		('icon' ':' iconUrl=STRING ';')?
+		('pages' ':' (pages+=Page)+ 'end')?
+	'end'
+;
+
+Page:
+	'page' name=STRING ':'
+		'description' ':' description=STRING ';'
+		('categories' ':' '[' (categories+=[Category]) (',' categories+=[Category])* ']' ';')?
+		('sections' ':' (sections+=Section)+ 'end')?
+	'end'
+;
+
+Section:
+	'section' name=STRING ':'
+		(content+=SectionContent)*
+	'end'
+;
+
+SectionContent:
+	ParagraphContent | ImageContent
+;
+
+ParagraphContent:
+	'paragraph' ':' content=STRING ';'
+;
+
+ImageContent:
+	'image' ':' image=[Image] ';'
+;
